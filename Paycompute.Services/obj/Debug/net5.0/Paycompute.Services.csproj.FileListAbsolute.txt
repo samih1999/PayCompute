@@ -1,0 +1,17 @@
+C:\Users\sami\source\repos\PayCompute\Paycompute.Services\bin\Debug\net5.0\Paycompute.Services.deps.json
+C:\Users\sami\source\repos\PayCompute\Paycompute.Services\bin\Debug\net5.0\Paycompute.Services.dll
+C:\Users\sami\source\repos\PayCompute\Paycompute.Services\bin\Debug\net5.0\ref\Paycompute.Services.dll
+C:\Users\sami\source\repos\PayCompute\Paycompute.Services\bin\Debug\net5.0\Paycompute.Services.pdb
+C:\Users\sami\source\repos\PayCompute\Paycompute.Services\bin\Debug\net5.0\Paycompute.Entity.dll
+C:\Users\sami\source\repos\PayCompute\Paycompute.Services\bin\Debug\net5.0\Paycompute.Persistence.dll
+C:\Users\sami\source\repos\PayCompute\Paycompute.Services\bin\Debug\net5.0\Paycompute.Entity.pdb
+C:\Users\sami\source\repos\PayCompute\Paycompute.Services\bin\Debug\net5.0\Paycompute.Persistence.pdb
+C:\Users\sami\source\repos\PayCompute\Paycompute.Services\obj\Debug\net5.0\Paycompute.Services.csproj.AssemblyReference.cache
+C:\Users\sami\source\repos\PayCompute\Paycompute.Services\obj\Debug\net5.0\Paycompute.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sami\source\repos\PayCompute\Paycompute.Services\obj\Debug\net5.0\Paycompute.Services.AssemblyInfoInputs.cache
+C:\Users\sami\source\repos\PayCompute\Paycompute.Services\obj\Debug\net5.0\Paycompute.Services.AssemblyInfo.cs
+C:\Users\sami\source\repos\PayCompute\Paycompute.Services\obj\Debug\net5.0\Paycompute.Services.csproj.CoreCompileInputs.cache
+C:\Users\sami\source\repos\PayCompute\Paycompute.Services\obj\Debug\net5.0\Paycompute.Services.csproj.CopyComplete
+C:\Users\sami\source\repos\PayCompute\Paycompute.Services\obj\Debug\net5.0\Paycompute.Services.dll
+C:\Users\sami\source\repos\PayCompute\Paycompute.Services\obj\Debug\net5.0\ref\Paycompute.Services.dll
+C:\Users\sami\source\repos\PayCompute\Paycompute.Services\obj\Debug\net5.0\Paycompute.Services.pdb

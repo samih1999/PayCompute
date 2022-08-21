@@ -1,0 +1,12 @@
+C:\Users\sami\source\repos\PayCompute\Paycompute.Entity\bin\Debug\net5.0\Paycompute.Entity.deps.json
+C:\Users\sami\source\repos\PayCompute\Paycompute.Entity\bin\Debug\net5.0\Paycompute.Entity.dll
+C:\Users\sami\source\repos\PayCompute\Paycompute.Entity\bin\Debug\net5.0\ref\Paycompute.Entity.dll
+C:\Users\sami\source\repos\PayCompute\Paycompute.Entity\bin\Debug\net5.0\Paycompute.Entity.pdb
+C:\Users\sami\source\repos\PayCompute\Paycompute.Entity\obj\Debug\net5.0\Paycompute.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sami\source\repos\PayCompute\Paycompute.Entity\obj\Debug\net5.0\Paycompute.Entity.AssemblyInfoInputs.cache
+C:\Users\sami\source\repos\PayCompute\Paycompute.Entity\obj\Debug\net5.0\Paycompute.Entity.AssemblyInfo.cs
+C:\Users\sami\source\repos\PayCompute\Paycompute.Entity\obj\Debug\net5.0\Paycompute.Entity.csproj.CoreCompileInputs.cache
+C:\Users\sami\source\repos\PayCompute\Paycompute.Entity\obj\Debug\net5.0\Paycompute.Entity.dll
+C:\Users\sami\source\repos\PayCompute\Paycompute.Entity\obj\Debug\net5.0\ref\Paycompute.Entity.dll
+C:\Users\sami\source\repos\PayCompute\Paycompute.Entity\obj\Debug\net5.0\Paycompute.Entity.pdb
+C:\Users\sami\source\repos\PayCompute\Paycompute.Entity\obj\Debug\net5.0\Paycompute.Entity.csproj.AssemblyReference.cache
