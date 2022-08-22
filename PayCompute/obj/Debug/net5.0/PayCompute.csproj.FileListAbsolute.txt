@@ -89,3 +89,13 @@ C:\Users\sami\source\repos\PayCompute\PayCompute\obj\Debug\net5.0\PayCompute.dll
 C:\Users\sami\source\repos\PayCompute\PayCompute\obj\Debug\net5.0\ref\PayCompute.dll
 C:\Users\sami\source\repos\PayCompute\PayCompute\obj\Debug\net5.0\PayCompute.pdb
 C:\Users\sami\source\repos\PayCompute\PayCompute\obj\Debug\net5.0\PayCompute.genruntimeconfig.cache
+C:\Users\sami\source\repos\PayCompute\PayCompute\obj\Debug\net5.0\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\sami\source\repos\PayCompute\PayCompute\obj\Debug\net5.0\Razor\Views\Employee\Index.cshtml.g.cs
+C:\Users\sami\source\repos\PayCompute\PayCompute\obj\Debug\net5.0\Razor\Views\Employee\Create.cshtml.g.cs
+C:\Users\sami\source\repos\PayCompute\PayCompute\obj\Debug\net5.0\Razor\Views\Employee\Edit.cshtml.g.cs
+C:\Users\sami\source\repos\PayCompute\PayCompute\obj\Debug\net5.0\Razor\Views\Employee\Detail.cshtml.g.cs
+C:\Users\sami\source\repos\PayCompute\PayCompute\obj\Debug\net5.0\Razor\Views\Employee\Delete.cshtml.g.cs
+C:\Users\sami\source\repos\PayCompute\PayCompute\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\sami\source\repos\PayCompute\PayCompute\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\sami\source\repos\PayCompute\PayCompute\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\sami\source\repos\PayCompute\PayCompute\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll

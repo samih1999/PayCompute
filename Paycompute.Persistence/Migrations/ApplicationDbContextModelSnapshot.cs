@@ -283,6 +283,9 @@ namespace Paycompute.Persistence.Migrations
                     b.Property<int>("PaymentMethod")
                         .HasColumnType("int");
 
+                    b.Property<string>("Phone")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("PostCode")
                         .IsRequired()
                         .HasMaxLength(50)
