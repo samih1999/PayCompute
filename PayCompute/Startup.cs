@@ -34,10 +34,26 @@ namespace PayCompute
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDatabaseDeveloperPageExceptionFilter();
 
-            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddDefaultTokenProviders()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.Configure<IdentityOptions>(options =>
+            {
+                options.Password.RequireDigit = true;
+                options.Password.RequireLowercase = true;
+                options.Password.RequireNonAlphanumeric = false;
+                options.Password.RequireUppercase = true;
+                options.Password.RequiredLength = 6;
+                options.Password.RequiredUniqueChars = 1;
+                options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(10);
+                options.Lockout.MaxFailedAccessAttempts = 5;
+                options.Lockout.AllowedForNewUsers = true;
+            });
             services.AddControllersWithViews();
             services.AddScoped<IEmployeeService, EmployeeService>();
+            services.AddScoped<IPayComputationService,PayComputationService>();
+            services.AddScoped<INationalInsuranceContributionService,NationalInsuranceContributionService>();
+            services.AddScoped<ITaxService,TaxService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

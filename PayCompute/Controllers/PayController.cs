@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 using Paycompute.Entity;
 using Paycompute.Services;
 using PayCompute.Models;
+using Rotativa;
+using RotativaCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -105,7 +107,7 @@ namespace PayCompute.Controllers
             return View();
         }
 
-    
+
         public IActionResult Detail(int id)
         {
             var paymentRecord = _payComputationService.GetById(id);
@@ -187,6 +189,12 @@ namespace PayCompute.Controllers
         }
 
 
-
-    }
+        public IActionResult GeneratePayslipPdf(int id)
+        {
+            var payslip = new ActionAsPdf("Payslip", new { id = id })
+            {
+                FileName = "PaySlip.pdf"
+            };
+            return (payslip);
+    } }
 }

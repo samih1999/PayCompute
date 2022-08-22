@@ -1,4 +1,6 @@
 C:\Users\sami\source\repos\PayCompute\Paycompute.Persistence\bin\Debug\net5.0\Paycompute.Persistence.deps.json
+C:\Users\sami\source\repos\PayCompute\Paycompute.Persistence\bin\Debug\net5.0\Paycompute.Persistence.runtimeconfig.json
+C:\Users\sami\source\repos\PayCompute\Paycompute.Persistence\bin\Debug\net5.0\Paycompute.Persistence.runtimeconfig.dev.json
 C:\Users\sami\source\repos\PayCompute\Paycompute.Persistence\bin\Debug\net5.0\Paycompute.Persistence.dll
 C:\Users\sami\source\repos\PayCompute\Paycompute.Persistence\bin\Debug\net5.0\ref\Paycompute.Persistence.dll
 C:\Users\sami\source\repos\PayCompute\Paycompute.Persistence\bin\Debug\net5.0\Paycompute.Persistence.pdb
@@ -13,6 +15,4 @@ C:\Users\sami\source\repos\PayCompute\Paycompute.Persistence\obj\Debug\net5.0\Pa
 C:\Users\sami\source\repos\PayCompute\Paycompute.Persistence\obj\Debug\net5.0\Paycompute.Persistence.dll
 C:\Users\sami\source\repos\PayCompute\Paycompute.Persistence\obj\Debug\net5.0\ref\Paycompute.Persistence.dll
 C:\Users\sami\source\repos\PayCompute\Paycompute.Persistence\obj\Debug\net5.0\Paycompute.Persistence.pdb
-C:\Users\sami\source\repos\PayCompute\Paycompute.Persistence\bin\Debug\net5.0\Paycompute.Persistence.runtimeconfig.json
-C:\Users\sami\source\repos\PayCompute\Paycompute.Persistence\bin\Debug\net5.0\Paycompute.Persistence.runtimeconfig.dev.json
 C:\Users\sami\source\repos\PayCompute\Paycompute.Persistence\obj\Debug\net5.0\Paycompute.Persistence.genruntimeconfig.cache
