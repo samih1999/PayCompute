@@ -2,18 +2,15 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Paycompute.Persistence;
 using Paycompute.Services;
 using Paycompute.Services.Implementation;
 using PayCompute.Persistence;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace PayCompute
 {
@@ -33,6 +30,8 @@ namespace PayCompute
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDatabaseDeveloperPageExceptionFilter();
+            services.AddRazorPages();
+            services.AddHealthChecks();
 
             services.AddIdentity<IdentityUser, IdentityRole>()
                 .AddDefaultTokenProviders()
@@ -57,7 +56,7 @@ namespace PayCompute
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env,UserManager<IdentityUser> userManager,RoleManager<IdentityRole> roleManager)
         {
             if (env.IsDevelopment())
             {
@@ -77,13 +76,13 @@ namespace PayCompute
 
             app.UseAuthentication();
             app.UseAuthorization();
-
+            DataSeedingInitializer.UserAndRoleSeedAsync(userManager, roleManager).Wait();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
-                endpoints.MapRazorPages();
+                    endpoints.MapRazorPages();
             });
         }
     }

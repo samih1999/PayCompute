@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 
 namespace PayCompute.Controllers
 {
+    [Authorize(Roles ="Admin, Manager")]
     public class PayController : Controller
     {
 
@@ -59,7 +60,7 @@ namespace PayCompute.Controllers
             return View(payRecords);
         }
 
-
+        [Authorize(Roles ="Admin")]
         public IActionResult Create()
         {
             ViewBag.employees = _employeeService.GetAllEmployeesForPayroll();
@@ -71,6 +72,7 @@ namespace PayCompute.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create(PaymentRecordCreateViewModel model)
         {
             if (ModelState.IsValid)

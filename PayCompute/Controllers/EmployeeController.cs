@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Hosting;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Hosting.Internal;
 using Paycompute.Entity;
@@ -12,6 +13,7 @@ using System.Threading.Tasks;
 
 namespace PayCompute.Controllers
 {
+    [Authorize]
     public class EmployeeController : Controller
     {
         private readonly IEmployeeService _employeeService;
@@ -20,6 +22,12 @@ namespace PayCompute.Controllers
         {
             _employeeService = employeeService;
             _hostingEnvironment = hostingEnvironment;
+        }
+        [HttpGet]
+        [Route("/Account/AccessDenied")]
+        public ActionResult AccessDenied()
+        {
+            return View();
         }
 
         public IActionResult Index(int? pageNumber)
